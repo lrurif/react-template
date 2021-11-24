@@ -1,0 +1,20 @@
+[data-component=Home] {
+  .home-container {
+    display: flex;
+    align-items: center;
+    height: calc(100vh - 50px);
+    .left-area {
+      // width: ;
+      height: 100%;
+      .ant-menu {
+        width: 200px;
+        height: 100%;
+        background-color: #212844 !important;
+      }
+    }
+    .right-area {
+      flex: 1;
+      height: 100%;
+    }
+  }
+}

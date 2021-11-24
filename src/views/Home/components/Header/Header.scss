@@ -1,0 +1,22 @@
+[data-component=Header] {
+  .header {
+    background-color: #212844;
+    height: 50px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    .left-img {
+      width: 180px;
+      height: 40px;
+    }
+    .right-area {
+      .avatar {
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+      }
+    }
+  }
+}
